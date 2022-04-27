@@ -1,0 +1,50 @@
+/*main heading will stay same size each time*/
+h1 {
+  text-align: center;
+  color: #4b5350;
+  font-weight: 1100;
+  font-size: 38px;
+}
+/*added these to standardize spacing*/
+* {
+  line-height: 140%;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.2px;
+}
+
+/* I used some code from W3 schools to make this sidebar but did change the width, left padding, background color  */
+nav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1b221c;
+  overflow-x: hidden;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+/*added a bit of space between links on the bottom*/
+li {
+  margin-bottom: 9px;
+}
+/*different color for hyperlink*/
+a {
+  color: #fefef6;
+}
+/*added a border to try it out and changed background*/
+body {
+  background-color: #ebfffd;
+  border-color: #73857c;
+  border-style: groove;
+}
+/*increased font sizes and weights across pages on things like headings and paragraphs to improve readability*/
+p {
+  font-weight: 550;
+  font-size: 18px;
+}
+/*moved this class style here as its going to be standard*/
+.headingFont {
+  font-style: oblique;
+}
