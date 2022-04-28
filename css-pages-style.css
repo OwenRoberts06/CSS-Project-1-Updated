@@ -36,7 +36,8 @@ a {
 /*added a border to try it out and changed background*/
 body {
   background-color: #ebfffd;
-  border-color: #73857c;
+  border-color: #98bf95;
+  border-width: 4px;
   border-style: groove;
 }
 /*increased font sizes and weights across pages on things like headings and paragraphs to improve readability*/
@@ -49,4 +50,4 @@ p {
   font-style: oblique;
 }
 /*though very muted i used a light blue for the background for trust and calm since its a protfolio and i want to seem trustworthy and calm
-and keeping that as the main color*/
+and keeping that as the main color I also added some green for the border t add more color, the rest of the colors are greys and blacks */
